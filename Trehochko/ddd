@@ -1,0 +1,5 @@
+curl -X POST -d "grant_type=authorization_code" -u "YOUR_CLIENT_ID:zUzt4BnpNZFfJhbjSNO12uT1zHdKtVjR6kUOrXrTkcotNCvF" https://talent.kruzhok.org/api/oauth/issue-token/
+
+
+
+open https://talent.kruzhok.org/oauth/authorize/?response_type=qX3EmKZtqukkfzbH0mDfhdinvUz8r8mGiRPEPPcDry2WDBMb\&client_id=zUzt4BnpNZFfJhbjSNO12uT1zHdKtVjR6kUOrXrTkcotNCvF\&code_challenge=ntS_qw7UCqoA9MPY8tO3PrAO1AkpIVYwOmlx-q0Iuec\&code_challenge_method=S256\&redirect_uri=http://localhost/api/return
